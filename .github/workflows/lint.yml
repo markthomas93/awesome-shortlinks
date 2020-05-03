@@ -1,0 +1,9 @@
+name: Awesome Lint
+on: [push, pull_request]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: jthegedus/github-action-awesome-lint@v0.1.0
+ 
